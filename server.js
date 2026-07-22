@@ -26,6 +26,12 @@ const connectDB = async() => {
     }
 }
 
+app.get("/test", async(requestAnimationFrame,res)=>{
+    res.json({
+        msg:"test was successful"
+    })
+});
+
 
 // app.post("/test", async (req, res) => {
 //     const options = {
