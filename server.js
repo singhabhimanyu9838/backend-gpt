@@ -28,7 +28,7 @@ const connectDB = async() => {
 
 app.get("/test", async(requestAnimationFrame,res)=>{
     res.json({
-        msg:" updated test was successful"
+        msg:"final updated test was successful"
     })
 });
 
